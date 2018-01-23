@@ -1,0 +1,28 @@
+﻿#include <iostream>
+#include <string>
+
+std::string houseChoosing()
+{
+    std::string houseArray[6];
+    std::string houseOutput;
+    houseArray[0] = "Gryffindor, Their daring, nerve and chivalry set Gryffindors apart";
+    houseArray[1] = "Hufflepuff, Those patient Hufflepuffs are true and unafraid of toil";
+    houseArray[2] = "Ravenclaw, Wit beyond measure is man's greatest treasure";
+    houseArray[3] = "Slytherin, Slytherin will help you on your way to greatness";
+    srand(time(NULL));
+    int numberRandom = std::rand() % 3;
+    houseOutput = houseArray[numberRandom];
+    std::cout << houseOutput << std::endl;
+    return houseOutput;
+}
+
+
+int main()
+{
+  std::string name;
+  std::cout << "What is your name? " << std::endl;
+  std::cin >> name;
+  std::cout << "Hmmmm, :thinking:"<< std::endl;
+  std::cout << "You would be..." << std::endl;
+  houseChoosing();
+}

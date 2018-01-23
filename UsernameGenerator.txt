@@ -1,0 +1,140 @@
+﻿#include <iostream>
+#include <string>
+
+int userNameGenerator()
+{
+    std::string firstName; //Variables Declared
+    std::string lastName;
+    std::string dateOfBirth;
+    std::cout << "What is your first name? "; //Variables taken from inputs
+    std::cin >> firstName;
+    std::cout << "What is your last name? ";
+    std::cin >> lastName;
+    std::cout << "What is your year of birth? "; 
+    std::cin >> dateOfBirth;
+    
+    std::cout << firstName;
+    std::cout << lastName;
+    
+    for (auto && i : dateOfBirth) { //For loop to make it able to access parts of string as an array.
+    }
+    std::cout << dateOfBirth[2] << dateOfBirth[3]; //Outputting last two digits of year inputted.
+    
+    srand(time(NULL)); //Seeding the random number.
+    for (int i = 0; i < 3; ++i) 
+    {
+    std::cout << std::rand() % 9;  //Random number outputted.
+    }
+    
+    return 0;
+}
+
+int main()
+{
+  userNameGenerator();
+}
+#include <iostream>
+#include <string>
+
+int userNameGenerator()
+{
+    std::string firstName; //Variables Declared
+    std::string lastName;
+    std::string dateOfBirth;
+    std::cout << "What is your first name? "; //Variables taken from inputs
+    std::cin >> firstName;
+    std::cout << "What is your last name? ";
+    std::cin >> lastName;
+    std::cout << "What is your year of birth? "; 
+    std::cin >> dateOfBirth;
+    
+    std::cout << firstName;
+    std::cout << lastName;
+    
+    for (auto && i : dateOfBirth) { //For loop to make it able to access parts of string as an array.
+    }
+    std::cout << dateOfBirth[2] << dateOfBirth[3]; //Outputting last two digits of year inputted.
+    
+    srand(time(NULL)); //Seeding the random number.
+    for (int i = 0; i < 3; ++i) 
+    {
+    std::cout << std::rand() % 9;  //Random number outputted.
+    }
+    
+    return 0;
+}
+
+int main()
+{
+  userNameGenerator();
+}
+#include <iostream>
+#include <string>
+
+int userNameGenerator()
+{
+    std::string firstName; //Variables Declared
+    std::string lastName;
+    std::string dateOfBirth;
+    std::cout << "What is your first name? "; //Variables taken from inputs
+    std::cin >> firstName;
+    std::cout << "What is your last name? ";
+    std::cin >> lastName;
+    std::cout << "What is your year of birth? "; 
+    std::cin >> dateOfBirth;
+    
+    std::cout << firstName;
+    std::cout << lastName;
+    
+    for (auto && i : dateOfBirth) { //For loop to make it able to access parts of string as an array.
+    }
+    std::cout << dateOfBirth[2] << dateOfBirth[3]; //Outputting last two digits of year inputted.
+    
+    srand(time(NULL)); //Seeding the random number.
+    for (int i = 0; i < 3; ++i) 
+    {
+    std::cout << std::rand() % 9;  //Random number outputted.
+    }
+    
+    return 0;
+}
+
+int main()
+{
+  userNameGenerator();
+}
+#include <iostream>
+#include <string>
+
+int userNameGenerator()
+{
+    std::string firstName; //Variables Declared
+    std::string lastName;
+    std::string dateOfBirth;
+    std::cout << "What is your first name? "; //Variables taken from inputs
+    std::cin >> firstName;
+    std::cout << "What is your last name? ";
+    std::cin >> lastName;
+    std::cout << "What is your year of birth? "; 
+    std::cin >> dateOfBirth;
+    
+    std::cout << firstName;
+    std::cout << lastName;
+    
+    for (auto && i : dateOfBirth) { //For loop to make it able to access parts of string as an array.
+    }
+    std::cout << dateOfBirth[2] << dateOfBirth[3]; //Outputting last two digits of year inputted.
+    
+    srand(time(NULL)); //Seeding the random number.
+    for (int i = 0; i < 3; ++i) 
+    {
+    std::cout << std::rand() % 9;  //Random number outputted.
+    }
+    
+    return 0;
+}
+
+int main()
+{
+  userNameGenerator();
+}

@@ -1,0 +1,30 @@
+﻿#include <iostream>
+#include <string>
+
+int caesarCipher()
+{
+    int shiftNumber = 0;
+    std::string message;
+    int *asciiValue;
+    char *cipherLine;
+    int messageLength = 0;
+    std::cout << "Enter a message" << std::endl;
+    std::cin >> message;
+    std::cout << "Enter a positive or negative number; how much the sentence shall be shifted" << std::endl;
+    std::cin >> shiftNumber;
+    
+    messageLength = message.length() - 1;
+    asciiValue = new int[message.length()];
+    cipherLine = new char[message.length()];
+    for (int i = 0; i <= messageLength; i++){
+        asciiValue[i] = (int)message[i]; 
+        asciiValue[i] += shiftNumber;
+        cipherLine[i] = (char)asciiValue[i];
+        std::cout << cipherLine[i];
+    }
+    return 0;
+}
+int main()
+{
+    caesarCipher();
+}
